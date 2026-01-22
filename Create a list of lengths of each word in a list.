@@ -1,0 +1,5 @@
+l=['apple','orange','mango','strawberry','pineapple']
+len_words=[]
+for i in range(len(l)):
+    len_words.append(len(l[i]))
+print(len_words)
