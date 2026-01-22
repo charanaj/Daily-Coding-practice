@@ -1,1 +1,1 @@
-# Daily-Coding-practice
+# Daily-Python-Coding-practice
