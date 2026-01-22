@@ -1,0 +1,7 @@
+l=[12,43,66,34,88,2,3,78,44,56,17,96,24,52,63]
+g=[]
+input_num=int(input("Enter number:"))
+for i in range(len(l)):
+    if l[i]>input_num:
+        g.append(l[i])
+print(g)
