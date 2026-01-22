@@ -1,0 +1,3 @@
+l=['a','B','c','d','e','F','G','h','i','j']
+str=''.join(l)
+print(str.upper())
