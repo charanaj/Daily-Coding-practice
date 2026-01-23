@@ -1,0 +1,2 @@
+d={'name':'charan','age':22,'city':'hyd'}
+d.update({'age':23})
