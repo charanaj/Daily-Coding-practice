@@ -1,0 +1,7 @@
+d={}
+d['name']='charan'
+d['age']=22
+d['city']='hyderabad'
+d['college']='xyz'
+d['state']='Telangana'
+print(d)
