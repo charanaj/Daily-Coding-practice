@@ -5,3 +5,4 @@ d['city']='hyderabad'
 d['college']='xyz'
 d['state']='Telangana'
 print(d)
+print(d['age'])
