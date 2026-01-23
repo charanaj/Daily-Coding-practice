@@ -1,0 +1,13 @@
+l=[1,2,2,3,4,4,4,2,5,5,5,4,4,4,4,5,5,6]
+s=list(set(l))
+print(s)
+d={}
+print(type(d))
+i=0
+while i <(len(s)):
+    d[s[i]]=l.count(s[i])
+    i+=1
+print(d)
+value=max(d.values())
+key=list(d.keys())[list(d.values()).index(value)]
+print(key)
