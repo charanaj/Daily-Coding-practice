@@ -1,1 +1,3 @@
-
+d={'name':'charan','age':22,'city':'hyd'}
+if 'x' not in d:
+  print('x is not present in d')
