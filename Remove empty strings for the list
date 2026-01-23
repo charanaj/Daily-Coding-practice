@@ -1,0 +1,6 @@
+l=['a','b','','d','','','e','f','adc']
+new=[]
+for i in range(len(l)):
+    if len(l[i])>=1:
+        new.append(l[i])
+print(new)
