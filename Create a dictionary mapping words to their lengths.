@@ -1,0 +1,7 @@
+lengths={}
+for i in d.keys():
+    lengths[i]=len(i)
+print(lengths)
+
+O/P format:
+{'name': 4, 'age': 3, 'city': 4, 'bloodgroup': 10}
