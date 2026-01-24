@@ -1,0 +1,8 @@
+l=['a','b','c']
+dic={}
+for i in range(len(l)):
+    dic[i]=l[i]
+print(dic) 
+
+#O/P format:
+{0: 'a', 1: 'b', 2: 'c'}
