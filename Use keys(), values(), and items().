@@ -1,0 +1,4 @@
+d={'name':'charan','age':22,'city':'hyd','bloodgroup':'O+'}
+print(d.keys())
+print(d.values())
+print(d.items())
