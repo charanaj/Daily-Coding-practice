@@ -1,0 +1,9 @@
+d={'name':'charan','age':22,'city':'hyd','bloodgroup':'O+'}
+d_keys_list=list(d.keys())
+print(d_keys_list)
+d_values_list=list(d.values())
+print(d_values_list)
+
+O/P format:
+['name', 'age', 'city', 'bloodgroup']
+['charan', 22, 'hyd', 'O+']
