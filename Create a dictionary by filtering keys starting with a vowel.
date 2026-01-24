@@ -1,0 +1,8 @@
+new={}
+v=('a','e','i','o','u','A','E','I','O','U')
+for i in d.keys():
+    if i.startswith(v):
+        new[i]=d[i]
+print(new)
+O/P format:
+{'age': 22}
