@@ -1,0 +1,3 @@
+d={'name':'charan','age':22,'city':'hyd','bloodgroup':'O+'}
+#print(d['place']) # if we use this way we get keyerror because it is not present in dictionary
+print(d.get('place')) # it gives None if it is not present
