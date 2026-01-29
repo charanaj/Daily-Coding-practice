@@ -1,0 +1,11 @@
+# cook your dish here
+T=int(input())
+l=[]
+a=4
+b=1
+for i in range(T):
+    x,y=map(int,input().split())
+    l.extend([x,y])
+for i in range(0,len(l),2):
+    total=l[i]*a+l[i+1]*b
+    print(total)
