@@ -1,0 +1,12 @@
+# cook your dish here
+T=int(input())
+l=[]
+for i in range(T):
+    x=int(input())
+    l.append(x)
+d=10
+for i in range(len(l)):
+    if d-l[i]>=3:
+        print("Yes")
+    else:
+        print("No")
