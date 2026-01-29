@@ -1,0 +1,15 @@
+# cook your dish here
+T=int(input())
+l=[]
+for i in range(T):
+    x=int(input())
+    l.append(x)
+for i in range(T):
+    if l[i]<=100:
+        print(l[i])
+    elif 100<l[i]<=1000:
+        print(l[i]-25)
+    elif 1000<l[i]<=5000:
+        print(l[i]-100)
+    elif l[i]>5000:
+        print(l[i]-500)
