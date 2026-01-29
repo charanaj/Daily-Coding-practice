@@ -1,0 +1,12 @@
+# cook your dish here
+T=int(input())
+l=[]
+for i in range(T):
+    x,y,z=map(int,input().split())
+    l.append([x,y,z])
+x=0
+for i in range(0,T):
+    if (l[i][x]+l[i][x+1])/2>l[i][x+2]:
+        print('YES')
+    else:
+        print('NO')
