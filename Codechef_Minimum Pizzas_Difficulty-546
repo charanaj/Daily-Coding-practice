@@ -1,0 +1,14 @@
+# cook your dish here
+import math
+T=int(input())
+l=[]
+s=4
+a=0
+for i in range(T):
+    x,y=map(int,input().split())
+    l.append([x,y])
+for i in range(T):
+    m=l[i][a]*l[i][a+1]
+    r=m/s
+    t=math.ceil(r)
+    print(t)
