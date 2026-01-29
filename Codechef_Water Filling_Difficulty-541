@@ -1,0 +1,11 @@
+# cook your dish here
+T=int(input())
+l=[]
+for i in range(T):
+    x,y,z=map(int,input().split())
+    l.append([x,y,z])
+for j in range(len(l)):
+    if sum(l[j])<2:
+        print("Water filling time")
+    else:
+        print("Not now")
