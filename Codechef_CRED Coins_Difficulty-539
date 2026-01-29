@@ -1,0 +1,11 @@
+# cook your dish here
+T=int(input())
+l=[]
+s=100
+for i in range(T):
+    x,y=map(int,input().split())
+    l.extend([x,y])
+for i in range(0,len(l),2):
+    a=l[i]*l[i+1]
+    x=a//s
+    print(int(x))
