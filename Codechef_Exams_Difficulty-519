@@ -1,0 +1,14 @@
+# cook your dish here
+T=int(input())
+l=[]
+for i in range(T):
+    x,y,z=map(int,input().split()) 
+    l.extend([x,y,z])
+f=0
+for i in range(0,len(l),3):
+    f=l[i]*l[i+1]-l[i+2]
+    if l[i]*l[i+1]/2>f:
+        print("YES")
+    else:
+        print("NO")
+    
