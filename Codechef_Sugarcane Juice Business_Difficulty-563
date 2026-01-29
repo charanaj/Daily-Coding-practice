@@ -1,0 +1,9 @@
+# cook your dish here
+T=int(input())
+p=50
+s=0
+for i in range(T):
+    x=int(input())
+    s=(70*x*p)//100
+    a=x*p-s
+    print(a)
