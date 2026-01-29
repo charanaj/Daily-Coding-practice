@@ -1,0 +1,17 @@
+# cook your dish here
+import math
+T=int(input())
+l=[]
+c=6
+a=0
+b=[]
+for i in range(T):
+    x,y=map(int,input().split())
+    l.append([x,y])
+for j in range(T):
+    z=l[j][a]/c
+    d=math.ceil(z)
+    b.append(d)
+e=1
+for r in range(len(b)):
+    print(l[r][e]*b[r])
