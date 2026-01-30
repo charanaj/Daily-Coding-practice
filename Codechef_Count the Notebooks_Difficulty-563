@@ -1,0 +1,6 @@
+# cook your dish here
+T=int(input())
+a=10
+for i in range(T):
+    x=int(input())
+    print(x*a)
