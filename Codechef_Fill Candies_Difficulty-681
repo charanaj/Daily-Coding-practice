@@ -1,0 +1,12 @@
+# cook your dish here
+import math
+T=int(input())
+for i in range(T):
+    x,y,z=map(int,input().split())
+    if x==y*z or x<y*z:
+        print('1')
+    elif x>=y*z:
+        c=x/(y*z)
+        print(math.ceil(c))
+    
+    
