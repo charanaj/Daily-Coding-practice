@@ -1,0 +1,10 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    if y==0:
+        print(x*2)
+    elif y-x>=0:
+        print(x)
+    elif y-x<0:
+        print(2*x-y)
