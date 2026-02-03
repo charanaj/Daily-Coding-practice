@@ -1,0 +1,10 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    if x==y or x-y==x:
+        print('0')
+    elif x-y==y or x-y>y:
+        print(y)
+    elif x-y<y:
+        print(x-y)
