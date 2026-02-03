@@ -1,0 +1,18 @@
+# cook your dish here
+T=int(input())
+
+l=[]
+for i in range(T):
+    x=int(input())
+    s=input()
+    for i in s:
+        if i=='A':
+            l.append('T')
+        elif i=='T':
+            l.append('A')
+        elif i=='G':
+            l.append('C')
+        else:
+            l.append('G')
+    print(''.join(l))
+    l.clear()
