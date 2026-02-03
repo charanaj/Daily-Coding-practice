@@ -1,0 +1,16 @@
+# cook your dish here
+T=int(input())
+ld=[1,2,3,4,5,6,7,8,9,10]
+ls=[11,12,13,14,15]
+ud=[16,17,18,19,20,21,22,23,24,25]
+us=[26,27,28,29,30]
+for i in range(T):
+    x=int(input())
+    if x in ld:
+        print('Lower Double')
+    elif x in ls:
+        print('Lower Single')
+    elif x in ud:
+        print('Upper Double')
+    elif x in us:
+        print('Upper Single')
