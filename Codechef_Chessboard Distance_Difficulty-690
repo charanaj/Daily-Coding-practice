@@ -1,0 +1,14 @@
+# cook your dish here
+T=int(input())
+l=[]
+for i in range(T):
+    a,b,c,d=map(int,input().split())
+    e=a-c
+    f=b-d
+    l.append(e)
+    l.append(f)
+    for i in range(len(l)):
+        if l[i]<0:
+            l[i]=0-l[i]
+    print(max(l))
+    l.clear()
