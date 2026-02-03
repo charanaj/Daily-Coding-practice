@@ -1,0 +1,16 @@
+# cook your dish here
+T=int(input())
+s=2
+n=3
+h=1
+n=1
+for i in range(T):
+    x=int(input())
+    if  x%3==0 or x==0: 
+        print('NORMAL')
+    elif (x-1)%3==0:
+        print('HUGE')
+    else:
+        print('SMALL')
+    
+    
