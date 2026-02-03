@@ -1,0 +1,7 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    a,b,c,d=map(int,input().split())
+    e=max(a,b)
+    f=max(c,d)
+    print(e+f)
