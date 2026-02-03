@@ -1,0 +1,13 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    if x<=y:
+        print('No')
+    elif x>y :
+        if (x/y)%2!=0:
+            print('No')
+        else:
+            print('Yes')
+    
+    
