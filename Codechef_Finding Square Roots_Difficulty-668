@@ -1,0 +1,6 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    x=int(input())
+    s=x**0.5
+    print(int(s))
