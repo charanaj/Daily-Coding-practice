@@ -1,0 +1,16 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    a,b,c,d=map(int,input().split())
+    if a<b:
+        if a+c>=b:
+            print('yes')
+        else:
+            print('no')
+    if a>b:
+        if b+d>=a:
+            print('yes')
+        else:
+            print('no')
+    if a==b:
+        print('yes')
