@@ -1,0 +1,10 @@
+# cook your dish here
+T=int(input())
+e=0
+o=0
+for i in range(T):
+    n,a,b=map(int,input().split())
+    o=(n+1)//2
+    e=n//2
+    print((a*e)+(b*o))
+  
