@@ -1,0 +1,14 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    s=y-x*100
+    r=s/100
+    re=s//100
+    
+    if s<0:
+        print('0')
+    elif r>re:
+        print(re+1)
+    else:
+        print(re)
