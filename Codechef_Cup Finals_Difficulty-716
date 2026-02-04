@@ -1,0 +1,16 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    a,b,c=map(int,input().split())
+    d=a-b
+    e=b-a
+    if d<=c:
+        if e<=c:
+            print('YES')
+        else:
+            print('NO')
+    elif e<=c:
+        if d<=c:
+            print('YES')
+        else:
+            print('NO')
