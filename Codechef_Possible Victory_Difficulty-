@@ -1,0 +1,4 @@
+# cook your dish here
+a,b,c=map(int,input().split())
+t=20-b
+print("YES" if t*36>a else "NO")
