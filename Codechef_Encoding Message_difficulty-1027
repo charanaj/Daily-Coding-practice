@@ -1,0 +1,23 @@
+# cook your dish here
+t=int(input())
+for i in range(t):
+    a=int(input())
+    b=input()
+    l=[]
+    for i in b:
+        l.append(i)
+    for i in range(0,a,2):
+        if a%2==0:
+            l[i],l[i+1]=l[i+1],l[i]
+        else:
+            if a%2!=0:
+                if i!=a-1:
+                    l[i],l[i+1]=l[i+1],l[i]
+                else:
+                    break
+    for i in range(0,len(l)):
+       
+        l[i]=chr(219-ord(l[i]))
+    print(''.join(l))  
+    
+    
