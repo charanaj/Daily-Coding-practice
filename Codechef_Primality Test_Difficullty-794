@@ -1,0 +1,14 @@
+t = int(input())
+
+for _ in range(t):
+    x = int(input())
+    
+    if x <= 1:
+        print("no")
+    else:
+        for j in range(2, int(x**0.5) + 1):
+            if x % j == 0:
+                print("no")
+                break
+        else:
+            print("yes")
