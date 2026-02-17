@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    a,b,c=map(int,input().split())
+    x=a
+    r=0
+    while x>1:
+        x>>=1
+        r+=1
+    print((b*r)+(c*(r-1 if r>0 else 0)))
