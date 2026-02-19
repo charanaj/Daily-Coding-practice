@@ -1,0 +1,13 @@
+def code(t):
+    for i in range(t):
+        x=int(input())
+        l=input().split()
+        S=0
+        L=0
+        for i in l:
+            if i=='START38':
+                S+=1
+            else:
+                L+=1
+        print(S,L)
+code(int(input()))
