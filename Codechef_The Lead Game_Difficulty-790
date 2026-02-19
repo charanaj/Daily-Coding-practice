@@ -1,0 +1,22 @@
+def solve():
+    n = int(input())
+    max_lead = 0
+    winner = 0
+    player1_score = 0
+    player2_score = 0
+
+    for _ in range(n):
+        score1, score2 = map(int, input().split())
+        player1_score += score1
+        player2_score += score2
+
+        lead = player1_score - player2_score
+        abs_lead = abs(lead)
+
+        if abs_lead > max_lead:
+            max_lead = abs_lead
+            winner = 1 if lead > 0 else 2
+
+    print(winner, max_lead)
+
+solve()
