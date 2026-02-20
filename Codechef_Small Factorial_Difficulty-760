@@ -1,0 +1,9 @@
+def fact(t):
+    for i in range(t):
+        s=1
+        x=int(input())
+        while x>0:
+            s*=x
+            x-=1
+        print(s)
+fact(int(input()))
