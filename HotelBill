@@ -1,0 +1,41 @@
+def order(item, *extra,quantity=1, price=300,  **info):
+    print('             Grand Villa              ')
+    print('22/0/26                       18:50')
+
+    for key, value in info.items():
+        print(value, end='                        ')
+    
+    print('\nItem         Quantity         Price')
+    print('--------------------------------------')
+    
+    
+    t=0
+    for k,v in item.items():
+        
+        if v[0]=='':
+            if v[1]=='':
+                print(k + '         ' + str(quantity) + '              ' + str(price))
+                t+=quantity*price
+            else:
+                print(k + '         ' + str(quantity) + '              ' + str(quantity*v[1]))
+                t+=quantity*v[1]
+        elif v[1]=='':
+            print(k+'         '+str(v[0])+'              '+str(price))
+            t+=v[0]*price
+        else:
+            print(k+'         '+str(v[0])+'              '+str(v[0]*v[1]))
+            t+=v[0]*v[1]
+        
+        
+    print('--------------------------------------')
+    print("Extra")
+    for i in extra:
+        t+=80
+        print(i+'                               '+str(80))
+    print('--------------------------------------')
+    print('Total'+'                          '+str(t))
+    print('        Thank You. Visit Again')
+
+
+l={'biryani':[2,299],'noodles':['',229],'chapati':[3,80],'Gobi 65':[1,'']}
+order(l,'a','b','c',name='charan',no='123456')
