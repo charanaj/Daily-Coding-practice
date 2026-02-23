@@ -1,0 +1,6 @@
+def roll():
+    t=int(input())
+    for i in range(t):
+        x=int(input())
+        print('YES' if x==6 else 'no')
+roll()
