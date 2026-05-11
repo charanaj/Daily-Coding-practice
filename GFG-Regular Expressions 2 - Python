@@ -1,0 +1,32 @@
+def validate(str):
+    a=str
+    c=0
+    for i in range(len(a)):
+        if a[i].isalpha() and a[i+1].isalpha():
+            pass
+        elif  a[i].isalpha() and len(a)!=i+1 and a[i+1].isalnum()!=True:
+            c+=1
+            
+        elif  a[i].isalnum()!=True and (len(a)!=i+1 and a[i+1].isalnum()!=True):
+            pass
+        elif  a[i].isalnum()!=True and len(a)!=i+1 and a[i+1].isdigit():
+            c+=1
+            
+    
+    return True if c==2 else False
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
